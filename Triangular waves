@@ -1,0 +1,7 @@
+%it rises for 50% of the time period of sawtooth
+y2=sawtooth(t,0.5);
+
+plot(t,y2);
+xlabel('time');
+ylabel('amplitude');
+title('triangular wave');
