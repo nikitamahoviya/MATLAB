@@ -1,0 +1,8 @@
+%gives a spiral graph
+n=1:100;
+a=1;
+c=(-1/12)+j*(pi/6);
+
+y=a*exp(-c*n);
+
+plot(y);
