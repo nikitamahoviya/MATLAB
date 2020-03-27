@@ -1,0 +1,15 @@
+%generate & plot square wave
+t=1:0.1:100;
+
+% here 50 is given for duty cycle
+% 50% values r high & remaing r low
+y=square(t,50);
+plot(y);         % the x axis is till 10
+xlabel('time');
+ylabel('amplitude');
+title('square wave');
+
+
+
+plot(y);		% the x axis is till 100
+axis([-1 1010 -2 2]);
