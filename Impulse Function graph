@@ -1,0 +1,9 @@
+%generate & plot unit step sequemce
+%impulse signal has value high at a particular point &  at rest of the points its zero
+n=-10:10;     %21 values inclucding 0
+%the value should be high only at zero & at rest places it should be 1
+u=[zeros(1,10) 1 zeros(1,10)];
+subplot(2,1,1)
+stem(n,u);  	%stem plots the value at that instant
+subplot(2,1,2)
+plot(n,u);
