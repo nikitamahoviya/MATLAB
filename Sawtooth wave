@@ -1,0 +1,10 @@
+%geneate & plot sawtooth wave
+
+t=-10:0.01:10;
+y=sawtooth(t);
+
+plot(t,y);
+xlabel('time');
+ylabel('amplitude');
+title('Sawtooth wave');
+grid on;
