@@ -1,0 +1,13 @@
+% ramp signal
+% ramp=t*u(t)
+t=-10:10;	%time range
+u=[zeros(1,10) ones(1,11)];	%unit step sequence
+%initail 10 values r 1 & rest are 0
+
+%  the .* is used for individual multiplication
+r=t.*u;
+plot(t,r ,'g');
+axis([-12 12 -1 2]) 	%done to maximaize the axis for clarity
+
+
+%ramp signal valid only for t>0
