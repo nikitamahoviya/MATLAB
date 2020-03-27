@@ -1,0 +1,12 @@
+%exponentially decaying fn y=ae^(-btsin(wt));
+
+t=0:0.001:1;
+a=60;
+b=2;
+f=10;
+
+y=a*exp(-b*t).*sin(2*pi*f*t);
+plot(t,y);
+title('exponentially decaying signal');
+
+
