@@ -1,0 +1,6 @@
+x=1:10;
+y2=x.*x;  % a parabolic graph
+plot(x,y2)
+xlabel('x-->');
+ylabel('y-->');
+title('plotting graph between x & y')
